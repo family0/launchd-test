@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WorkingDirectory</key>
+	<string>/Users/tj/projects/example/lib</string>
+	<key>Label</key>
+	<string>kr.itst.prs5updater.plist</string>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardOutPath</key>
+	<string>updater_out.log</string>
+	<key>StandardErrorPath</key>
+	<string>updater_err.log</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>./prs5updater</string>
+	</array>
+</dict>
+</plist>
