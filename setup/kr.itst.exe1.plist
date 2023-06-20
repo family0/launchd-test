@@ -3,18 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>WorkingDirectory</key>
-	<string>/Users/tj/projects/example/lib</string>
+	<string>/Users/tj/projects/launchd-test/lib</string>
 	<key>Label</key>
-	<string>kr.itst.prs5agent.plist</string>
+	<string>kr.itst.exe1.plist</string>
+	<key>KeepAlive</key>
+	<true/>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>StandardOutPath</key>
-	<string>agent_out.log</string>
+	<string>exe1o.log</string>
 	<key>StandardErrorPath</key>
-	<string>agent_err.log</string>
+	<string>exe1e.log</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>./prs5agent</string>
+		<string>./exe1</string>
 	</array>
 </dict>
 </plist>

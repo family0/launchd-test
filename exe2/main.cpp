@@ -4,7 +4,6 @@
 using namespace std;
 
 int main() {
-    cout << "updater START" << endl;
-    mkdir("dir2", 0644);
+    cout << "exe2 START" << endl;
     return 0;
 }
