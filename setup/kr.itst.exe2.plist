@@ -6,6 +6,10 @@
 	<string>/Users/tj/projects/launchd-test/lib</string>
 	<key>Label</key>
 	<string>kr.itst.exe2.plist</string>
+	<key>KeepAlive</key>
+	<false/>
+	<key>RunAtLoad</key>
+	<false/>
 	<key>StandardOutPath</key>
 	<string>exe2o.log</string>
 	<key>StandardErrorPath</key>

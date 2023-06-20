@@ -7,9 +7,9 @@
 	<key>Label</key>
 	<string>kr.itst.exe1.plist</string>
 	<key>KeepAlive</key>
-	<true/>
+	<false/>
 	<key>RunAtLoad</key>
-	<true/>
+	<false/>
 	<key>StandardOutPath</key>
 	<string>exe1o.log</string>
 	<key>StandardErrorPath</key>
